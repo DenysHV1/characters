@@ -1,0 +1,27 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { SessionProvider } from '../entities/session'
+import { ProtectedRoute } from './router/ProtectedRoute'
+import { Navbar } from '../widgets/navbar'
+import { HomePage } from '../pages/home'
+import { AuthPage } from '../pages/auth'
+import { ErrorPage } from '../pages/error'
+import { PartyPage } from '../pages/party'
+import { CharacterFormPage } from '../pages/character-form'
+
+export const App = () => (
+  <BrowserRouter>
+    <SessionProvider>
+      <div className="min-h-screen bg-slate-950 flex flex-col">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
+          <Route path="/party/:partyId" element={<ProtectedRoute><PartyPage /></ProtectedRoute>} />
+          <Route path="/characters/new" element={<ProtectedRoute><CharacterFormPage /></ProtectedRoute>} />
+          <Route path="/characters/:id/edit" element={<ProtectedRoute><CharacterFormPage /></ProtectedRoute>} />
+          <Route path="/login" element={<AuthPage />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </div>
+    </SessionProvider>
+  </BrowserRouter>
+)

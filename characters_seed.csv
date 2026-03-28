@@ -1,0 +1,13 @@
+id,name,user_id,img,weapon_rating,artefact_flover,artefact_pen,artefact_watch,artefact_cup,artefact_crown,talant_1,talant_2,talant_3,lvl,stars,party
+1dd26445-07e1-439a-8708-d3a76d2ab276,Hu Tao,YOUR_USER_ID,,Staff of Homa R1,good,good,good,good,good,1,10,10,90,5,1
+256396b0-8d25-4b04-9782-c9d90ac4e282,Zhongli,YOUR_USER_ID,,Vortex Vanquisher R1,good,good,good,good,good,8,8,8,90,5,1
+61072491-3707-4959-b1fb-db467a8649e9,Yelan,YOUR_USER_ID,,Aqua Simulacra R1,good,good,good,good,good,10,10,10,90,5,1
+c56acfd4-4acc-4dcc-94d6-79eb50479c98,Xingqiu,YOUR_USER_ID,,Sacrificial Sword R5,good,good,good,middle,good,10,10,10,90,4,1
+582e971d-5149-43ef-b5a8-ca98d1297f5f,Neuvillette,YOUR_USER_ID,,Tome of the Eternal Flow R1,good,good,good,good,good,10,10,10,90,5,2
+216092e1-07ff-4f0e-877d-ea7b28c7f30b,Furina,YOUR_USER_ID,,Splendor of Tranquil Waters R1,good,good,good,good,good,10,10,10,90,5,2
+9a1e84fd-096d-434d-955c-a10938c95bba,Kazuha,YOUR_USER_ID,,Freedom-Sworn R1,good,good,good,good,good,10,10,10,90,5,2
+8199a52b-e807-43f1-a67a-386db7ac72a7,Baizhu,YOUR_USER_ID,,Jadefall's Splendor R1,good,good,middle,good,middle,8,10,10,90,5,2
+a28e9a57-6c6f-419a-82fc-1d98c4d8bc15,Wanderer,YOUR_USER_ID,,Tulaytullah's Remembrance R1,good,good,good,good,good,10,10,10,90,5,3
+8331ccfe-6e2e-4aad-8fb3-c2f515cbf7ba,Faruzan,YOUR_USER_ID,,Favonius Warbow R5,good,good,middle,good,middle,9,9,12,90,4,3
+0b7397e2-3552-4d68-983a-ab7c180b5c69,Bennett,YOUR_USER_ID,,Aquila Favonia R1,good,good,good,good,good,8,12,10,90,4,3
+40f08715-3377-4233-abdd-ef1bf6db41a9,Jean,YOUR_USER_ID,,Aquila Favonia R1,middle,middle,good,good,middle,8,8,8,80,5,3
