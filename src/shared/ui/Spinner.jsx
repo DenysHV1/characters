@@ -3,7 +3,7 @@ export const Spinner = ({ className = '' }) => (
 )
 
 export const PageSpinner = () => (
-  <div className="flex-1 flex items-center justify-center">
+  <div className="fixed inset-0 flex items-center justify-center">
     <Spinner className="w-8 h-8" />
   </div>
 )

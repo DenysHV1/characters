@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useSession } from '../../entities/session'
-import { getCharactersByParty, deleteCharacter, CharacterCard } from '../../entities/character'
+import { getCharactersByParty, deleteCharacter } from '../../entities/character'
+import { CharacterCard } from '../../features/character'
 import { PageSpinner } from '../../shared/ui/Spinner'
 import { Alert } from '../../shared/ui/Alert'
 

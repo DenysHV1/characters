@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useSession } from '../../entities/session'
-
+import logo from '../../assets/logo.png';
 export const Navbar = () => {
   const { user, signOut } = useSession()
   const navigate = useNavigate()
@@ -12,12 +12,12 @@ export const Navbar = () => {
 
   return (
     <header className="border-b border-slate-800 bg-slate-950">
-      <nav className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           to="/"
           className="text-base font-semibold text-amber-400 tracking-tight"
         >
-          MyApp
+          <img src={logo} alt="logo" className='max-w-[70px]'/>
         </Link>
 
         <div className="flex items-center gap-3">
